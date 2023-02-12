@@ -1,0 +1,46 @@
+.productimage{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.productcolor{
+    border: 3px solid #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.productdetails{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+    margin-right: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:ivory;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h5,h6{
+    margin-bottom: 20px;
+}
+h1{
+    font-weight: bold;
+   
+    
+}
+
+.quantitygroup{
+    margin-top: 20px;
+
+}
+
+.quantitygroup button{
+    padding: 10px;
+}
+
+.quantitygroup input{
+    width: 50px;
+    padding: 10px;
+}

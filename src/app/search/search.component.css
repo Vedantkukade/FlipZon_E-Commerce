@@ -1,0 +1,35 @@
+.search-item{
+    margin-top: 25px ;
+    width: 800px;
+    border-top:1px solid #ddd;
+    padding: 10px;
+    margin-left: 290px;
+    background-color:ivory;
+  
+
+}
+
+.search-item img{
+    width: 100%;
+    object-fit:contain;
+    height: 150px;
+}
+
+.search-item h6{
+    font-size: 24px;
+    color: firebrick;
+}
+
+.search-item p{
+    margin: 5px;
+}
+
+.search-item span{
+    margin-right: 10px;
+}
+
+#dec{
+    text-decoration: none;
+    color:maroon;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+<nav class="nav">
+    <h1><a routerLink="">FlipZon</a></h1>
+    <div *ngIf="menutype==='default'" class="navsearch">
+        <input (keyup)="SearchProducts($event)" type="text" #searchinput (blur)="hidesearch()" placeholder="Search For Products">
+        <button (click)="submitsearch(searchinput.value)">Search</button>
+        <ul class="suggestedresult" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a (mousedown)="redirecttodetails(item.id)">{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div id="ha" [ngSwitch]="menutype">
+        <ul *ngSwitchCase="'default'">
+            <li><a routerLink="">Home</a></li>
+            <li><a routerLink="Seller-auth">Seller</a></li>
+            <li><a routerLink="/user-auth">Login</a></li>
+            <li><a href="#">Cart(0)</a></li>
+        </ul>
+        <ul *ngSwitchCase="'seller'">
+            <li><a routerLink="seller-home">Product List</a></li>
+            <li><a routerLink="seller-add-product">Add Products</a></li>
+            <li><a (click)="logout()">Logout</a></li>
+            <li><a id="b" href="#">{{ sellername | titlecase }}</a></li>
+        </ul>
+
+    </div>
+</nav>
+

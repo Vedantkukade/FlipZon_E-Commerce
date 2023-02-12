@@ -1,0 +1,153 @@
+{
+  "seller": [
+    {
+      "name": "nikita yesare",
+      "email": "nikita@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "vedant kukade",
+      "email": "vedant@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "hardik yesare",
+      "email": "hardik@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "anagha deshmukh",
+      "email": "anagha@gmail.com",
+      "password": "abc@123",
+      "id": 4
+    },
+    {
+      "name": "atul kukade",
+      "email": "atul@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Google Pixel",
+      "price": "45000",
+      "color": "Snow",
+      "category": "mobile",
+      "description": "Google Tensor G2 Processor",
+      "image": "https://m.media-amazon.com/images/I/712JkPUUlRL._SX679_.jpg",
+      "id": 4
+    },
+    {
+      "name": "Lakme Strawberry Face Wash ",
+      "price": "569",
+      "color": "pink",
+      "category": "facewash",
+      "description": "Radiance & Glow, Deep Cleansing",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/face-wash/4/i/e/300-blush-glow-strawberry-freshness-lakme-original-imagh6e9zqudrxpn.jpeg?q=70",
+      "id": 6
+    },
+    {
+      "name": "DIESEL Analog Watch",
+      "price": "19495",
+      "color": "grey",
+      "category": "wrist watch",
+      "description": "This is a genuine Diesel product.",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k4rcmfk0pkrrdj/watch-refurbished/u/5/u/c-dz4329i-diesel-original-imafnnnhbyg5nnsg.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "name": "AIR ZOOM RIVAL FLY 3 ",
+      "price": "2599",
+      "color": "black",
+      "category": "shoes",
+      "description": "Running Shoes For Men",
+      "image": "https://rukminim1.flixcart.com/image/832/832/l47cu4w0/shoe/r/d/g/-original-imagf5ggn432rhze.jpeg?q=70",
+      "id": 8
+    },
+    {
+      "name": "Macbook Pro M1 Max",
+      "price": "306990",
+      "color": "silver",
+      "category": "laptops",
+      "description": "32 GB/1 TB SSD/Mac OS Monterey",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "id": 9
+    },
+    {
+      "name": "boAt Airdopes 402 ",
+      "price": "2033",
+      "color": "black",
+      "category": "blutooth headphones",
+      "description": "boAt Airdopes 402 Bluetooth Headset  (Active Black, True Wireless)",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kvjuufk0/headphone/y/k/e/-original-imag8f6g8fbd3ry2.jpeg?q=70",
+      "id": 10
+    },
+    {
+      "name": "Home Sizzler ",
+      "price": "579",
+      "color": "brown",
+      "category": "curtains",
+      "description": "153 cm (5 ft) Polyester Room Darkening Window Curtain ",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kpedle80/curtain/t/c/z/panel-garden-dr-brown-214-door-hs2pc000992dr-eyelet-home-sizzler-original-imag3n7yayhahavq.jpeg?q=70",
+      "id": 11
+    },
+    {
+      "name": "U.S. POLO ASSN. Jeans",
+      "price": "1599",
+      "color": "blue",
+      "category": "clothing",
+      "description": "Men Slim Mid Rise Blue Jeans",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/jean/a/w/p/-original-imaggdgdm7rtqtab.jpeg?q=70",
+      "id": 12
+    },
+    {
+      "name": "SpinBot BattleBudz W20 ",
+      "price": "999",
+      "color": "red",
+      "category": "wired headphones",
+      "description": "SpinBot BattleBudz W20 Wired Gaming Earphones with Boom Mic ",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l58iaa80/headphone/a/r/7/battlebudz-w20-wired-gaming-earphones-with-boom-mic-for-mobiles-original-imagfyk9a5yfzv3h.jpeg?q=70",
+      "id": 13
+    },
+    {
+      "name": "NIKON Z5 Mirrorless Camera ",
+      "price": "159000",
+      "color": "black",
+      "category": "camera",
+      "description": "\n1 Camera, Lens, Battery, Rechargeable Battery, Cap, USB, Strap",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70",
+      "id": 14
+    },
+    {
+      "name": "ASUS TUF VG27AQ",
+      "price": "29999",
+      "color": "golden",
+      "category": "monitors",
+      "description": " 27 inch Quad HD LED Backlit IPS Panel Gaming Monitor",
+      "image": "https://rukminim1.flixcart.com/image/416/416/klcmoi80/monitor/o/c/t/vg27aq-tuf-gaming-vg27aq-asus-original-imagyh3f2y99qrrg.jpeg?q=70",
+      "id": 15
+    },
+    {
+      "name": "iphone 14 pro",
+      "price": "123999",
+      "color": "purple",
+      "category": "mobiles",
+      "description": "48MP + 12MP + 12MP + 12MP | 12MP Front Camera",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/l/8/r/-original-imaghxemnnnkd8bg.jpeg?q=70",
+      "id": 16
+    },
+    {
+      "name": "MOBIUS TRENDSETTER PRO ",
+      "price": "3600",
+      "color": "black",
+      "category": "camera bags",
+      "description": "WATERPROOF DSLR BACKPACK CAMERA BAG WITH RAIN COVER DSLR CAMERA ",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kr0ynbk0/camera-bag/backpack/d/e/y/trendsetter-pro-100-waterproof-dslr-backpack-camera-bag-with-original-imag4wsw2v2whw3a.jpeg?q=70",
+      "id": 17
+    }
+  ]
+}

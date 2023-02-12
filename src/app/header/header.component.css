@@ -1,0 +1,111 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:lightslategray;
+    margin: 0;
+}
+
+.nav h1{
+    color: white;
+    margin: 0;
+    font-size: 42px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav h1 a{
+    color: white;
+    margin: 0;
+    font-size: 42px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#ha{
+
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#b{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color:azure;
+}
+
+.nav .navsearch{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.nav .navsearch input{
+    flex:1;
+    color:darkred;
+    border:1px solid maroon;
+    height: 39px;
+    border-right: 0;
+
+}
+
+.nav .navsearch button{
+    
+    color:darkred;
+    border:1px solid maroon;
+    height: 39px;
+    border-left: 0;
+
+}
+
+h1 a{
+    color:white;
+    text-decoration: none;
+}
+
+.suggestedresult{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+}
+
+.suggestedresult li{
+    border: 1px solid #bbb;
+    padding: 5px;
+}
+
+.suggestedresult li a{
+    cursor: pointer;
+    color: firebrick;
+}
+
+

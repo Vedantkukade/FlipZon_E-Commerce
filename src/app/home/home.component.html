@@ -1,0 +1,98 @@
+<div class="home">
+    <h1>Best Deals</h1>
+    <ngb-carousel *ngIf="PopularProducts">
+        <ng-template *ngFor="let item of PopularProducts" ngbSlide>
+            <div class="picsum-img-wrapper">
+                <a routerLink="/productdetails/{{item.id}}">
+                    <img class="product_image" src="{{item.image}}" alt="Random first slide" />
+                </a>
+            </div>
+            <div class="carousel-caption">
+                <h3>{{item.name}}</h3>
+                <p>{{item.description}}</p>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+
+    <div class="productlistwrapper">
+        <h1>Trending Products</h1>
+        <div class="row">
+            <div class="col-sm-3" *ngFor="let item of trends">
+                <div class="productitem">
+                    <div class="img">
+                        <a routerLink="/productdetails/{{item.id}}">
+                            <img class="productitemimg" src="{{item.image}}">
+                       </a>
+                    </div>
+                    
+                    <div class="productdetails">
+                        <h6 class="namehead">{{item.name | titlecase}}</h6>
+                        <div class="productprice">
+                            <h6>Price:{{item.price | currency:'INR'}}</h6>
+                        </div>
+                        <div class="productcolor">
+                            <h6>Color:{{item.color | titlecase}}</h6>
+                        </div>
+                    </div>
+                    <div class="productfooter">
+                        <a routerLink="/productdetails/{{item.id}}">View Details</a>
+                        <a href="#">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<footer class="_3voSl0">
+    <div class="_3rc_xQ">
+
+        <div>
+            <div class="_2WErco row">
+                <div class="_2Brcj4">
+                    <div class="_3-dnWo">ABOUT</div><a href="#" class="_1arVWX">Contact Us</a><a href="#"
+                        class="_1arVWX">About Us</a><a href="#" class="_1arVWX">Careers</a><a href="#"
+                        class="_1arVWX">FlipZon
+                        Stories</a><a href="#" class="_1arVWX">Press</a><a href="#" target="_blank" class="_1arVWX"
+                        rel="noopener noreferrer">FlipZon Wholesale</a><a href="#" class="_1arVWX">Corporate
+                        Information</a>
+                </div>
+                <div class="_2Brcj4">
+                    <div class="_3-dnWo">HELP</div><a href="#" class="_1arVWX">Payments</a><a href="#"
+                        class="_1arVWX">Shipping</a><a href="#" class="_1arVWX">Cancellation &amp; Returns</a><a
+                        href="#" class="_1arVWX">FAQ</a><a href="#" class="_1arVWX">Report
+                        Infringement</a>
+                </div>
+                <div class="_2Brcj4">
+                    <div class="_3-dnWo">POLICY</div><a href="#" class="_1arVWX">Return Policy</a><a href="#"
+                        class="_1arVWX">Terms Of Use</a><a href="#" class="_1arVWX">Security</a><a href="#"
+                        class="_1arVWX">Privacy</a><a href="#" class="_1arVWX">Sitemap</a><a href="#"
+                        class="_1arVWX">EPR
+                        Compliance</a>
+                </div>
+                <div class="_2Brcj4">
+                    <div class="_3-dnWo">SOCIAL</div><a href="#" class="_1arVWX">Facebook</a><a href="#"
+                        class="_1arVWX">Twitter</a><a href="#" class="_1arVWX">YouTube</a>
+                </div>
+                <div class="_2Brcj4 address">
+                    <div class="_3JHi0r">
+                        <div class="_3-dnWo"><span>Mail Us:FlipZon@corp.com</span></div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="_2uz0vJ">
+
+                    <span class="z3ht-w">© 2018-2023
+                        FlipZon.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
